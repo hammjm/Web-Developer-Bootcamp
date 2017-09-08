@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Forms</title>
+</head>
+<body>
+<h1>Sign In</h1>
+
+<form action="http://wikipedia.org">
+	<label for="Email">Email: </label>
+		<input id="Email" name="Email" type="Email" placeholder="Email" required>
+	<label for="password">Password: </label>
+	<input id="password" name="password" type = "password" placeholder="password" minlength="5" maxlength="10" required>
+	<input type="submit">
+</form>
+
+<p>Do you prefer cats or dogs?</p>
+<form>
+	<label for="dogs">Dogs: </label>
+	<input id = "dogs" type="radio" name="petChoice" value="DOGS">
+	<label for = "cats">Cats: </label>
+	<input id = "cats" type="radio" name="petChoice" value="CATS">
+	
+	<p>What's your favorite color?</p>
+	<select name="color">
+		<option value = "Red">Red</option>
+		<option value = "Orange">Orange</option>
+		<option value = "Yellow">Yellow</option>
+	</select>
+	<br />
+		<textarea name="paragraph" rows="10" cols="50"></textarea>
+		<button>Go!</button>
+</form>
+</body>
+</html>
